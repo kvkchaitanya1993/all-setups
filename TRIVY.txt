@@ -1,7 +1,7 @@
 TRIVY INSTALLATION:
 
-wget https://github.com/aquasecurity/trivy/releases/download/v0.18.3/trivy_0.18.3_Linux-64bit.tar.gz
-tar zxvf trivy_0.18.3_Linux-64bit.tar.gz
+wget https://github.com/aquasecurity/trivy/releases/download/v0.66.0/trivy_0.66.0_Linux-64bit.tar.gz
+tar zxvf trivy_0.66.0_Linux-64bit.tar.gz
 sudo mv trivy /usr/local/bin/
 vim .bashrc
 export PATH=$PATH:/usr/local/bin/
